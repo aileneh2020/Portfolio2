@@ -1,0 +1,91 @@
+body {
+  background-image: radial-gradient(circle, #9e9ea4, #8d8e94, #7d7e83, #6d6f74, #5e6064);
+  padding: 1em;
+  margin: 0 1%;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.remove_margin {
+  margin: 0;
+}
+
+/*
+HEADER
+*/
+
+.header_box {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 1.5em;
+  border-bottom-style: ridge;
+  border-bottom-width: thick;
+  border-bottom-color: darkgray;
+  font-family: 'Courier New', serif;
+}
+
+.ah_logo {
+  border-color: white;
+  max-width: 175px;
+  padding: 1em 0 0 2%;
+}
+
+.name_title {
+  padding-top: 4em;
+  text-align: right;
+  color: #ac1313;
+}
+
+/*
+HERO IMAGE AND ARTICLE
+*/
+
+.about_me {
+  align-items: center;
+}
+
+.desk_image {
+
+}
+
+.my_story {
+font-style: italic;
+padding: 5%;
+}
+
+/*
+FEATURED WORK
+*/
+
+.featured_items {
+  padding-bottom: 2em;
+}
+
+.project_image {
+  height: 200px;
+  width: 200px;
+}
+
+.featured_title {
+  text-align: center;
+}
+
+.featured_mockup, .featured_animal, .featured_pixel {
+  text-align: center;
+}
+
+/*
+FOOTER
+*/
+
+.contact_footer {
+  align-content: center;
+  border-top-style: ridge;
+  border-top-width: thick;
+  border-top-color: darkgray;
+}
+
+.footer_credits {
+  text-align: center;
+  margin: 2px;
+}
